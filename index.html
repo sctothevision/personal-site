@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <audio src="" id="audio"></audio>
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">home</a></li>
+            <li class="link"><a href="#">projects</a></li>
+            <li class="link"><a href="#">about</a></li>
+            <li class="link"><a href="#">contact</a></li>
+        </ul>
+        
+    </nav>
+    <div class="burger-nav">
+
+            <div id="contain">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+            <ul id="nav" >
+                <li class="burger-link active"><a href="#">Home</a></li>
+                <li class="burger-link"><a href="#">Projects</a></li>
+                <li class="burger-link"><a href="#">About</a></li>
+                <li class="burger-link"><a href="#">Contacts</a></li>
+            </ul>
+        </div>
+    <!-- home section -->
+
+    <section class="home-section active">
+        <h1 class="hero-heading">come closer <br> to your vision</h1>
+        <img src="img/home.jpg" class="home-img" alt="">
+    </section>
+
+    <!-- project section -->
+    <section class="project-section">
+        <h1 class="project-heading">some of my projects</h1>
+        <div class="music-player__container">
+            <!-- <audio src="" id="audio"></audio> -->
+
+            <div class="music-player">
+                <h1 class="music-name">song one</h1>
+                <p class="artist-name">artist</p>
+
+                <div class="disk"></div>
+
+                <div class="song-slider">
+                    <input type="range" value="0" class="seek-bar">
+                    <span class="current-time">00:00</span>
+                    <span class="song-duration">00:00</span>
+                </div>
+
+                <div class="controls">
+                    <button class="btn backward-btn"><img src="images/pre.png" alt=""></button>
+                    <button class="play-btn pause">
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <button class="btn forward-btn"><img src="images/nxt.png" alt=""></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="img/project-1.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 01</h1>
+                    <p class="project-info">
+                        Здесь будет мой проект
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repo</button>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project-2.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 02</h1>
+                    <p class="project-info">
+                        Здесь будет мой проект
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repo</button>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project-3.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 03</h1>
+                    <p class="project-info">
+                        Здесь будет мой проект
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repo</button>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project-4.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">project 04</h1>
+                    <p class="project-info">
+                        Здесь будет мой проект
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github">github repo</button>
+                        <button class="project-btn live">see live</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about-section">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="img/home.jpg" class="about-img" alt="">
+                <button class="download-cv-btn">downlaod cv</button>
+            </div>
+            <p class="about-info">Рад приветствовать всех тех,кто зашёл сюда озкомиться с информацией<br>Под конец получения первого высшего образования  я понял, что заниматься тем,чему учат, не так уж интересно, как писать вспомогательный софт - то есть мне нравится создавать то , от чего я вижу пользу в будущем и настоящем. <br> Мои знания на данный момент не идеальны,но совершенствуюсь согласно актуальным тенденциям мира веб-разработки </p>
+        </div>
+
+        <!-- skills -->
+        <div class="skill-section">
+            <h1 class="heading">skills</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="img/html.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">HTML</h1>
+                    <!-- <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p> -->
+                </div>
+                <div class="skill-card">
+                    <img src="img/css.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">CSS</h1>
+                    <!-- <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p> -->
+                </div>
+                <div class="skill-card">
+                    <img src="img/js.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">JS</h1>
+                    <!-- <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p> -->
+                </div>
+                <div class="skill-card">
+                    <img src="img/nodejs.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">Node.js</h1>
+                    <!-- <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p> -->
+                </div>
+                <div class="skill-card">
+                    <img src="img/reactjs.png" class="skill-img" alt="">
+                    <div class="skill-level">98%</div>
+                    <h1 class="skill-name">React.js</h1>
+                    <!-- <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- timeline -->
+        <div class="timeline">
+            <h1 class="heading">education and experience</h1>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Обучение.<br>09.2019-11.2019</h1>
+                    <p class="card-detail">Онлайн школа "Лофтскул" - "Основы вёрстки"</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Обучение.<br>2021-2022</h1>
+                    <p class="card-detail">Университет ИТМО.Образовательный центр компьютерного проектирования и дизайна</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Обучение<br>06.2021<br></h1>
+                    <p class="card-detail">Курс Лущенко Александра по основам Javascript.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Получение второго высшего образования<br>2022-2024</h1>
+                    <p class="card-detail">Мурманский Государственный Технический Университет - "Информационные системы и технологии".</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2022 по настоящий момент</h1>
+                    <p class="card-detail">Практический опыт в веб-студии под руководством личного наставника</p>
+                </div>
+            </div>
+        </div>
+        
+            <button class="download-cv-btn--bot">downlaod cv</button>
+        
+        
+    </section>
+
+    <!-- contact section -->
+    <section class="contact-section">
+        <form class="contact-form">
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+            <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+            <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+            <button type="submit" class="form-submit-btn">contact</button>
+        </form>
+        <!-- map -->
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1992.3821410481914!2d30.221254016386165!3d60.04189438191382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696358d5f59899d%3A0xa115653c590b4788!2z0JDRgNGG0LXRg9C70L7QstGB0LrQsNGPINCw0LsuLCAyM9CaMSwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5NzM3MQ!5e0!3m2!1sru!2sru!4v1640452377945!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+    
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
